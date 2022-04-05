@@ -1,7 +1,7 @@
 :root {
     --bg-color: #fff;
-    --primary-color: #f6ad23;
-    --secondary-color: #f6ad23;
+    --primary-color: #FD7E2F;
+    --secondary-color: #24D1A4;
     --accent-color: #cccccc;
 }
 
@@ -75,7 +75,7 @@ body {
     display: table;
     z-index: 9999;
     background-image: url(assets/images/SKREAM-20-IMAGES/greybg.png);
-/*    background-size: cover;*/
+    background-size: cover;
 
 }
 
@@ -148,15 +148,15 @@ a:hover {
     position: fixed;
     width: 80px;
     height: 80px;
-    left: 10px;
-    top: 10px;
+    left: 20px;
+    top: 20px;
 /*    background: url('assets/images/SKREAM-20-IMAGES/hamburger.png') no-repeat center center;*/
     background-size: cover;
     z-index: 999;
     cursor: pointer;
 }
 .hamburger img{
-    width: 100%;
+    width: 65%;
     
 }
 
@@ -282,7 +282,7 @@ a:hover {
 
 .social-link {
     color: var(--secondary-color);
-    font-size: 24px;
+    font-size: 35px;
     margin-left: 50px;
     cursor: pointer;
 }
@@ -319,7 +319,7 @@ a:hover {
 .sidebar-wrapper {
     width: 50%;
     height: 100%;
-    background-color: #434242;
+    background-color: black;
     position: fixed;
     overflow: auto;
     top: 0;
@@ -367,11 +367,11 @@ a:hover {
 }
 
 .sidebar-wrapper .sidebar-option:hover {
-    color: #fff;
+    color: var(--secondary-color);
 }
 
 .sidebar-wrapper .sidebar-option.selected {
-    color: #fff;
+    color: var(--secondary-color);
 }
 
 /*-------------------------------------KEYFRAMES-----------------------------------------------*/
@@ -442,11 +442,12 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background: url('assets/images/SKREAM-20-IMAGES/whitebg.png')no-repeat center center;
+    background: url('assets/images/SKREAM-20-IMAGES/bg.png')no-repeat center center;
     background-size: cover;
 }
 .info-section{
-   background: url('assets/images/SKREAM-20-IMAGES/whitebg.png')no-repeat center center; 
+    
+    background: url('assets/images/SKREAM-20-IMAGES/bg.png')no-repeat center center; 
     background-size: cover;
 }
 .home-fixed-wrapper {
@@ -530,13 +531,13 @@ a:hover {
 }
 
 #about-section-2 {
-    background: url('assets/images/SKREAM-20-IMAGES/WEBSITE%20MAIN.png') no-repeat center center;
+    background: url('assets/images/SKREAM-20-IMAGES/aboutSKREAM.png') no-repeat center center;
     background-size: cover;
     
 }
 
 #about-kjsce {
-    background: url('assets/images/SKREAM-20-IMAGES/WEBSITE%20ABOUT.png') no-repeat center center;
+    background: url('assets/images/SKREAM-20-IMAGES/WEBSITEABOUT.png') no-repeat center center;
     background-size: cover;
 }
 
@@ -715,19 +716,19 @@ a:hover {
 .prize-money.team .winning-place .column {
     flex: 1;
     font-size: 20px;
-    color: #434242;
+    color: #24D1A4;
     margin-top: 2px;
     margin-right: 2px;
     padding-left: 13px;
     font-family: 'UniSansBold';
     text-transform: uppercase;
-    background: #cccccc;
+    background: #DBFFF5;
 }
 
 .prize-money.team .winning-place .column.label {
     flex: 1;
-    background: #434242;
-    color: #fff;
+    background: #FFEFE5;
+    color: #FD7E2F;
     font-size: 16px;
     text-transform: uppercase;
     padding-top: 5px;
@@ -761,6 +762,7 @@ a:hover {
     justify-content: flex-start;
     align-items: flex-end;
     padding: 5px;
+    font-family: UniSansRegular;
     text-transform: uppercase;
     color: #434242;
     letter-spacing: 1px;
@@ -779,10 +781,10 @@ a:hover {
     align-items: center;
     margin-right: 2px;
     font-size: 20px;
-    color: #fff;
+    color: #FD7E2F;
     font-family: 'UniSansBold';
     text-transform: uppercase;
-    background: #434242;
+    background: #FFEFE5;
 }
 
 /*-------------------------------------RIGHT SECTION-----------------------------------------------*/
@@ -977,27 +979,27 @@ a:hover {
 }
 
 .events-info .heading-container.sport {
-    background-image: url('./assets/images/SKREAM-20-IMAGES/WEBSITE%20MAIN.png');
+    background-image: url('./assets/images/SKREAM-20-IMAGES/WEBSITEMAIN.png');
 }
 
 .events-info .heading-container.cricket {
-    background-image: url('./assets/images/SKREAM-20-IMAGES/cricket.png');
+    background-image: url('./assets/images/SKREAM-20-IMAGES/cricket.JPG');
 }
 
 .events-info .heading-container.football {
-    background-image: url('./assets/images/SKREAM-20-IMAGES/football.png');
+    background-image: url('./assets/images/SKREAM-20-IMAGES/football.JPG');
 }
 
 .events-info .heading-container.badminton {
-    background-image: url('./assets/images//SKREAM-20-IMAGES/badminton.png');
+    background-image: url('./assets/images//SKREAM-20-IMAGES/badminton.jpg');
 }
 
 .events-info .heading-container.box-cricket {
-    background-image: url('./assets/images/SKREAM-20-IMAGES/box_cricket.png');
+    background-image: url('./assets/images/SKREAM-20-IMAGES/box_cricket.jpg');
 }
 
 .events-info .heading-container.rink-football {
-    background-image: url('./assets/images/SKREAM-20-IMAGES/rink_football.png');
+    background-image: url('./assets/images/SKREAM-20-IMAGES/rink_football.jpg');
 }
 
 .events-info .heading-container.squash {
@@ -1005,35 +1007,35 @@ a:hover {
 }
 
 .events-info .heading-container.lawn-tennis {
-    background-image: url('./assets/images/SKREAM-20-IMAGES/lawn_tennis.png');
+    background-image: url('./assets/images/SKREAM-20-IMAGES/lawn_tennis.JPG');
 }
 
 .events-info .heading-container.table-tennis {
-    background-image: url('./assets/images/SKREAM-20-IMAGES/table_tennis.png');
+    background-image: url('./assets/images/SKREAM-20-IMAGES/table_tennis.jpg');
 }
 
 .events-info .heading-container.carrom {
-    background-image: url('./assets/images/SKREAM-20-IMAGES/carrom.png');
+    background-image: url('./assets/images/SKREAM-20-IMAGES/carrom.JPG');
 }
 
 .events-info .heading-container.chess {
-    background-image: url('./assets/images/SKREAM-20-IMAGES/chess.png');
+    background-image: url('./assets/images/SKREAM-20-IMAGES/chess.jpg');
 }
 
 .events-info .heading-container.athletics {
-    background-image: url('./assets/images/SKREAM-20-IMAGES/athletics.png');
+    background-image: url('./assets/images/SKREAM-20-IMAGES/atlethics.jpg');
 }
 
 .events-info .heading-container.basketball {
-    background-image: url('./assets/images/SKREAM-20-IMAGES/basketball.png');
+    background-image: url('./assets/images/SKREAM-20-IMAGES/basketball.jpg');
 }
 
 .events-info .heading-container.volleyball {
-    background-image: url('./assets/images/SKREAM-20-IMAGES/VOLLEYBALL.png');
+    background-image: url('./assets/images/SKREAM-20-IMAGES/VOLLEYBALL.jpg');
 }
 
 .events-info .heading-container.throwball {
-    background-image: url('./assets/images/SKREAM-20-IMAGES/throwball.png');
+    background-image: url('./assets/images/SKREAM-20-IMAGES/throwball.jpg');
 }
 
 /************************************************************************************************
@@ -1104,7 +1106,7 @@ a:hover {
 }
 .rules-wrapper .main-heading {
 /*    display: none;*/
-    font-family: Lakeshore;
+    font-family: UniSansBold;
     color: var(--primary-color);
     font-size: 55px;
 }
@@ -1143,7 +1145,7 @@ a:hover {
 
 
 .heading{
-    font-family: 'Lakeshore'!important;
+    font-family: 'UniSansSemiBold'!important;
 /*
     writing-mode: vertical-rl;
     text-orientation: upright; 
@@ -1194,7 +1196,7 @@ a:hover {
 
 .accomodation-wrapper .main-heading {
 /*    display: none;*/
-    font-family: Lakeshore;
+    font-family: UniSansBold;
     color: var(--primary-color);
     font-size: 55px;
 }
@@ -1298,7 +1300,7 @@ a:hover {
 
 .registration-wrapper .main-heading {
 /*    display: none;*/
-    font-family: Lakeshore;
+    font-family: UniSansBold;
     color: var(--primary-color);
     font-size: 55px;
 }
@@ -1382,7 +1384,7 @@ a:active{
     height: 400px;
 }
 .logo-container .zero-waste{
-    height: 200px;
+    height: 225px;
 }
 
 
@@ -1463,6 +1465,11 @@ a:active{
 }
 
 .parvaah-event .event-image.right {
+    margin-right: 10%;
+    margin-left: 0%;
+}
+
+.parvaah-event .event-image.left {
     margin-right: 0%;
     margin-left: 10%;
 }
