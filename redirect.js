@@ -1,1 +1,1 @@
-window.location.href = './2020/pages/home/home.html';
+window.location.href = './pages/home/home.html';
